@@ -9,7 +9,7 @@ Dgraph &amp; MongoDB implementations for [kataras/go-sessions](https://github.co
 
 For a full documentation of the library see the [original repository](https://github.com/kataras/go-sessions).
 
-Full examples can be found in the [examples](https://github.com/bh90210/go-sessions-stores/tree/main/examples) dir.
+Full examples can be found in the [examples](https://github.com/bh90210/go-sessions-stores/tree/main/examples) folder.
 
 ### Mongo
 
