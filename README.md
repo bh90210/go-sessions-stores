@@ -1,6 +1,7 @@
+# go-sessions-stores
+
 [![Go Report](https://goreportcard.com/badge/github.com/bh90210/go-sessions-stores)](https://goreportcard.com/report/github.com/bh90210/go-sessions-stores)
 
-# go-sessions-stores
 Dgraph &amp; MongoDB implementations for [kataras/go-sessions](https://github.com/kataras/go-sessions).
 
 ## How to use
