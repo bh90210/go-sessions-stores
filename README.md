@@ -1,2 +1,52 @@
 # go-sessions-stores
 Dgraph &amp; Mongo implementations for go-sessions
+
+## How to use
+
+For a full documentation of the library see [kataras/go-sessions](https://github.com/kataras/go-sessions).
+
+Full examples can be found in the [examples](https://github.com/bh90210/go-sessions-stores/tree/main/examples) dir.
+
+### Mongo
+
+To include `mongostore` run 
+```sh
+go get github.com/bh90210/go-sessions-stores/mongostore
+```
+
+#### Example
+
+```go
+	// replace with your running mongo server settings:
+	cred := options.Credential{
+		AuthSource: "admin",
+		Username:   "user",
+		Password:   "password",
+	}
+
+	clientOpts := options.Client().ApplyURI("mongodb://127.0.0.1:27017").SetAuth(cred)
+	db, _ := mongostore.New(clientOpts, "sessions")
+
+	sess := sessions.New(sessions.Config{Cookie: "sessionscookieid"})
+
+	sess.UseDatabase(db)
+```
+
+### Dgraph
+
+To include `dgraphstore` run 
+```sh
+go get github.com/bh90210/go-sessions-stores/dgraphstore
+```
+
+#### Example 
+
+```go
+	// replace with your server settings:
+	conn, _ := grpc.Dial("127.0.0.1:9080", grpc.WithInsecure())
+	db, _ := dgraphstore.NewFromDB(conn)
+
+	sess := sessions.New(sessions.Config{Cookie: "sessionscookieid"})
+
+	sess.UseDatabase(db)
+```
