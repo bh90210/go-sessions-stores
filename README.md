@@ -1,9 +1,9 @@
 # go-sessions-stores
-Dgraph &amp; Mongo implementations for go-sessions
+Dgraph &amp; MongoDB implementations for [kataras/go-sessions](https://github.com/kataras/go-sessions).
 
 ## How to use
 
-For a full documentation of the library see [kataras/go-sessions](https://github.com/kataras/go-sessions).
+For a full documentation of the library see the [original repository](https://github.com/kataras/go-sessions).
 
 Full examples can be found in the [examples](https://github.com/bh90210/go-sessions-stores/tree/main/examples) dir.
 
