@@ -1,3 +1,7 @@
+Dgrpah ref [![Dgraph Reference](https://pkg.go.dev/badge/github.com/bh90210/go-sessions-stores/dgraphstore.svg)](https://pkg.go.dev/github.com/bh90210/go-sessions-stores/dgraphstore) 
+MongoDB ref [![Mongo Reference](https://pkg.go.dev/badge/github.com/bh90210/go-sessions-stores/mongostore.svg)](https://pkg.go.dev/github.com/bh90210/go-sessions-stores/mongostore) 
+[![Go Report](https://goreportcard.com/badge/github.com/bh90210/go-sessions-stores)](https://goreportcard.com/report/github.com/bh90210/go-sessions-stores)
+
 # go-sessions-stores
 Dgraph &amp; MongoDB implementations for [kataras/go-sessions](https://github.com/kataras/go-sessions).
 
