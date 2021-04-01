@@ -1,5 +1,3 @@
-Dgrpah ref [![Dgraph Reference](https://pkg.go.dev/badge/github.com/bh90210/go-sessions-stores/dgraphstore.svg)](https://pkg.go.dev/github.com/bh90210/go-sessions-stores/dgraphstore) 
-MongoDB ref [![Mongo Reference](https://pkg.go.dev/badge/github.com/bh90210/go-sessions-stores/mongostore.svg)](https://pkg.go.dev/github.com/bh90210/go-sessions-stores/mongostore) 
 [![Go Report](https://goreportcard.com/badge/github.com/bh90210/go-sessions-stores)](https://goreportcard.com/report/github.com/bh90210/go-sessions-stores)
 
 # go-sessions-stores
@@ -12,6 +10,8 @@ For a full documentation of the library see the [original repository](https://gi
 Full examples can be found in the [examples](https://github.com/bh90210/go-sessions-stores/tree/main/examples) folder.
 
 ### Mongo
+
+[![Mongo Reference](https://pkg.go.dev/badge/github.com/bh90210/go-sessions-stores/mongostore.svg)](https://pkg.go.dev/github.com/bh90210/go-sessions-stores/mongostore) 
 
 To include `mongostore` run 
 ```sh
@@ -37,6 +37,8 @@ go get github.com/bh90210/go-sessions-stores/mongostore
 ```
 
 ### Dgraph
+
+[![Dgraph Reference](https://pkg.go.dev/badge/github.com/bh90210/go-sessions-stores/dgraphstore.svg)](https://pkg.go.dev/github.com/bh90210/go-sessions-stores/dgraphstore) 
 
 To include `dgraphstore` run 
 ```sh
